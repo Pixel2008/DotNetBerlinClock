@@ -49,3 +49,14 @@ RRRR
 OOOOOOOOOOO
 OOOO
 """
+
+Scenario: TZ 11:23:37
+When the time is "11:23:37"
+Then the clock should look like
+"""
+0
+RROO
+ROOO
+YYRYOOOOOOO
+YYYO
+"""
